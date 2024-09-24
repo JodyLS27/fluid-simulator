@@ -7,7 +7,10 @@ out/
 
 # Dont push anything that can be built. This keeps the Repo small.
 ext/*
-libs/*
+
+# Dont include any embeded repos.
+/editor/libs/*
+/engine/libs/*
 
 # Draw IO live edit files.
 *.drawio.bkp

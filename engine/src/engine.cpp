@@ -1,8 +1,6 @@
-#include <iostream>
+#include "engine.hpp"
 
-int main()
+void run()
 {
-	std::cout << "Build Succeeded, Print happened.";
-
-	return 0;
+	std::cout << "Build Succeeded, engine is running...";
 }
